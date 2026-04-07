@@ -1,0 +1,15 @@
+.mensaje-form{
+    padding: 20px;
+    background: #d4edda; 
+    color: #155724; 
+    border-radius: 5px; 
+    margin: 20px;
+}
+
+.mensaje-error{
+    padding:20px; 
+    background:#f8d7da; 
+    color:#721c24; 
+    border-radius:5px; 
+    margin:20px;
+}
