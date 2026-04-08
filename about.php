@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
-    <title>Ant-Library -- Sobre Nosotros</title>
+    <title>LibraryList -- Sobre Nosotros</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -50,38 +50,49 @@
             <div class="row">
                 <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="img/about.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="img/feature.jpg" style="object-fit: cover;">
                     </div>
                 </div>
+
                 <div class="col-lg-7">
                     <div class="section-title position-relative mb-4">
-                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">About Us</h6>
-                        <h1 class="display-4">First Choice For Online Education Anywhere</h1>
+                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Sobre Nosotros</h6>
+                        <h1 class="display-4">Tu espacio personal para organizar tus lecturas</h1>
                     </div>
-                    <p>Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
+
+                    <p>
+                        LibraryList es una librería web diseñada para organizar y gestionar libros de forma sencilla y accesible.
+                        Permite a los usuarios registrar los libros que ya han leído y aquellos que aún tienen pendientes,
+                        junto con la información de sus autores. La plataforma ofrece una experiencia clara y ordenada,
+                        facilitando el seguimiento de lecturas y la creación de una colección literaria digital personalizada.
+                    </p>
+                    
                     <div class="row pt-3 mx-0">
                         <div class="col-3 px-0">
                             <div class="bg-success text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">123</h1>
-                                <h6 class="text-uppercase text-white">Available<span class="d-block">Subjects</span></h6>
+                                <h1 class="text-white" data-toggle="counter-up">+500</h1>
+                                <h6 class="text-uppercase text-white">Libros<span class="d-block">Registrados</span></h6>
                             </div>
                         </div>
+
                         <div class="col-3 px-0">
                             <div class="bg-primary text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">1234</h1>
-                                <h6 class="text-uppercase text-white">Online<span class="d-block">Courses</span></h6>
+                                <h1 class="text-white" data-toggle="counter-up">+200</h1>
+                                <h6 class="text-uppercase text-white">Autores<span class="d-block">Disponibles</span></h6>
                             </div>
                         </div>
+
                         <div class="col-3 px-0">
                             <div class="bg-secondary text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">123</h1>
-                                <h6 class="text-uppercase text-white">Skilled<span class="d-block">Instructors</span></h6>
+                                <h1 class="text-white" data-toggle="counter-up">+100</h1>
+                                <h6 class="text-uppercase text-white">Lecturas<span class="d-block">Completadas</span></h6>
                             </div>
                         </div>
+
                         <div class="col-3 px-0">
                             <div class="bg-warning text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">1234</h1>
-                                <h6 class="text-uppercase text-white">Happy<span class="d-block">Students</span></h6>
+                                <h1 class="text-white" data-toggle="counter-up">+300</h1>
+                                <h6 class="text-uppercase text-white">Pendientes<span class="d-block">Por leer</span></h6>
                             </div>
                         </div>
                     </div>
@@ -98,41 +109,60 @@
             <div class="row">
                 <div class="col-lg-7 mb-5 mb-lg-0">
                     <div class="section-title position-relative mb-4">
-                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Why Choose Us?</h6>
-                        <h1 class="display-4">Why You Should Start Learning with Us?</h1>
+                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">¿Por qué elegir LibraryList?</h6>
+                        <h1 class="display-4">Organiza tu biblioteca personal de forma inteligente</h1>
                     </div>
-                    <p class="mb-4 pb-2">Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet voluptua duo dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita est. Diam sanctus gubergren sit rebum clita amet.</p>
+
+                    <p class="mb-4 pb-2">
+                       LibraryList te permite gestionar tus libros de manera eficiente, manteniendo un registro claro de tus lecturas
+                        y tus próximos objetivos. Es una herramienta ideal para lectores que desean tener control total sobre su
+                        colección y descubrir nuevos autores.
+                    </p>
+                    
                     <div class="d-flex mb-3">
                         <div class="btn-icon bg-primary mr-4">
                             <i class="fa fa-2x fa-graduation-cap text-white"></i>
                         </div>
                         <div class="mt-n1">
-                            <h4>Skilled Instructors</h4>
-                            <p>Labore rebum duo est Sit dolore eos sit tempor eos stet, vero vero clita magna kasd no nonumy et eos dolor magna ipsum.</p>
+                            <h4>Gestión de libros</h4>
+                            <p>
+                                Registra los libros que has leído o deseas leer, 
+                                organizándolos de forma clara y accesible.
+                            </p>
                         </div>
                     </div>
+
                     <div class="d-flex mb-3">
                         <div class="btn-icon bg-secondary mr-4">
                             <i class="fa fa-2x fa-certificate text-white"></i>
                         </div>
+
                         <div class="mt-n1">
-                            <h4>International Certificate</h4>
-                            <p>Labore rebum duo est Sit dolore eos sit tempor eos stet, vero vero clita magna kasd no nonumy et eos dolor magna ipsum.</p>
+                            <h4>Información de autores</h4>
+                            <p>
+                                Consulta y almacena datos relevantes sobre autores 
+                                para enriquecer tu experiencia de lectura.
+                            </p>
                         </div>
                     </div>
+
                     <div class="d-flex">
                         <div class="btn-icon bg-warning mr-4">
                             <i class="fa fa-2x fa-book-reader text-white"></i>
                         </div>
+
                         <div class="mt-n1">
-                            <h4>Online Classes</h4>
-                            <p class="m-0">Labore rebum duo est Sit dolore eos sit tempor eos stet, vero vero clita magna kasd no nonumy et eos dolor magna ipsum.</p>
+                            <h4>Seguimiento de lectura</h4>
+                            <p class="m-0">
+                                Lleva un control de tu progreso y mantén organizada tu lista de lecturas pendientes y completadas.
+                            </p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="img/feature.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="img/courses-2.jpg" style="object-fit: cover;">
                     </div>
                 </div>
             </div>

@@ -23,6 +23,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <p>
                 Gracias por contactarnos, <strong>$nombre</strong>.
             </p>
+            
+            <a href='../contact.php'>Regresar</a>
         </div>";
 
     } 
@@ -33,6 +35,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <h3>
                 Error al guardar tu mensaje.
             </h3>
+            
+            <a href='../contact.php'>Regresar</a>
         </div>";
     }
 }

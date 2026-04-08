@@ -82,6 +82,19 @@ class DBGestionLibreria{
 
         return $stmt->execute();
     }
+
+    public function getLibroAutres(){
+        $pdoConexionLA = $this->getConexion();
+        $resuladoLA = ['no data'];
+
+        if(is_object($pdoConexionLA)){
+            $sqlRequestLA = "SELECT * FROM titulos t LEFT JOIN titulo_autor ta ON t.id_titulo = ta.id_titulo LEFT JOIN autores a ON ta.id_autor = a.id_autor";
+
+            $resuladoLA = $pdoConexionLA->query($sqlRequestLA);
+        }
+        
+        return $resuladoLA;
+    }
 }
 
 

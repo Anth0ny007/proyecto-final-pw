@@ -5,11 +5,11 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
-    <title>Ant-Library -- Inicio</title>
+    <title>LibraryList -- Inicio</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -26,9 +26,10 @@
 
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style-index.css">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -68,7 +69,6 @@
                     $libros = $libreria->getLibros();
 
                     foreach($libros as $registro){
-
                         $articulo = '
                             <div class="courses-item position-relative">
                                 <img class="img-fluid" src="img/libros.jpg" alt="Libros">
@@ -110,7 +110,7 @@
 
     <!-- Autores Start -->
     <div class="container-fluid py-5">
-        <div class="container py-5">
+        <!-- <div class="container py-5">
             <div class="section-title text-center position-relative mb-5">
                 <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Autores</h6>
                 <h1 class="display-4">Conoce A Los Autores</h1>
@@ -118,65 +118,60 @@
 
             <div class="owl-carousel team-carousel position-relative" style="padding: 0 30px;">
                 <div class="team-item">
-                    <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/user.png" alt="Imagen del autor">
                     <div class="bg-light text-center p-4">
                         <h5 class="mb-3">Instructor Name</h5>
                         <p class="mb-2">Web Design & Development</p>
                         <div class="d-flex justify-content-center">
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
                             <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
                             <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
                             <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="team-item">
-                    <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
-                    <div class="bg-light text-center p-4">
-                        <h5 class="mb-3">Instructor Name</h5>
-                        <p class="mb-2">Web Design & Development</p>
-                        <div class="d-flex justify-content-center">
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="team-item">
-                    <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
-                    <div class="bg-light text-center p-4">
-                        <h5 class="mb-3">Instructor Name</h5>
-                        <p class="mb-2">Web Design & Development</p>
-                        <div class="d-flex justify-content-center">
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="team-item">
-                    <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
-                    <div class="bg-light text-center p-4">
-                        <h5 class="mb-3">Instructor Name</h5>
-                        <p class="mb-2">Web Design & Development</p>
-                        <div class="d-flex justify-content-center">
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
+        </div> -->
+        <div class="container py-5">
+            <div class="section-title text-center position-relative mb-5">
+                <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Autores</h6>
+                <h1 class="display-4">Conoce A Los Autores</h1>
+            </div>
+            
+            <div class="owl-carousel team-carousel position-relative" style="padding: 0 30px;">
+            
+                <?php
+                    $autoresL = $libreria->getLibroAutres();
+                    $contador = 1;
+
+                    foreach($autoresL as $registroLA){
+                        $articleLA = '
+                                    <div class="team-item">
+                                        <img class="img-fluid w-100" src="img/user.png" alt="Imagen del autor">
+                                        <div class="bg-light text-center p-4">
+                                            <h5 class="mb-3">' . $registroLA['nombre'] . ' ' . $registro['apellido'] . '</h5>
+                                            <p class="mb-2">Web Design & Development</p>
+
+                                            <div class="d-flex justify-content-center">
+                                                <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                                <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                                <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                        ';
+
+                        if($contador <= 3){
+                            print($articleLA);
+                            $contador++;
+                        }
+
+                    }
+                ?>
+            </div>
+        </div>
+
+        <div class="container-link">
+            <a href="autores.php">Ver Mas Autores</a>
         </div>
     </div>
     <!-- Autores End -->

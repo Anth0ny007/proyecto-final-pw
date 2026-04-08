@@ -1,0 +1,21 @@
+.container-link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-link a{
+    text-decoration: none;
+    background: #2878EB;
+    color: #fff;
+    padding: 10px;
+    font-family:  "Jost", sans-serif;
+}
+
+.container-link a:hover{
+    text-decoration: none;
+    color: #fff;
+    background: #2771d8;
+}

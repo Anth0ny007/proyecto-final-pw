@@ -5,7 +5,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
@@ -61,20 +61,17 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row container">
                 <?php
                                 
                     $libreria = new DBGestionLibreria;
                     $libros = $libreria->getLibros();
 
-                    //var_dump($libros);
                     foreach($libros as $registro){
-                        //Para imprimir arreglo
-                        //print_r($registro);
 
                         $articulo = '
                             <div class="col-lg-4 col-md-6 pb-4">
-                                <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.html">
+                                <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="#">
                                     <img class="img-fluid" src="img/libros.jpg" alt="">
 
                                     <div class="courses-text">

@@ -1,0 +1,13 @@
+.fecha-publ{
+    padding: 5px; 
+    border-radius: 5px;
+}
+
+.fecha-publ legend{
+    display: inline;
+    margin: 0;
+    font-size: 1rem;
+    font-family: inherit;
+    width: auto;
+    color: #495057;
+}

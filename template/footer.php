@@ -3,9 +3,17 @@
             <div class="row">
                 <div class="col-md-6 mb-5">
                     <a href="index.html" class="navbar-brand">
-                        <h1 class="mt-n2 text-uppercase text-white"><i class="fa fa-book-reader mr-3"></i>Ant-Library</h1>
+                        <h1 class="mt-n2 text-uppercase text-white">
+                            <i class="fa fa-book-reader mr-3"></i> LibraryList
+                        </h1>
                     </a>
-                    <p class="m-0">Accusam nonumy clita sed rebum kasd eirmod elitr. Ipsum ea lorem at et diam est, tempor rebum ipsum sit ea tempor stet et consetetur dolores. Justo stet diam ipsum lorem vero clita diam</p>
+                    <p class="m-0">
+                        LibraryList es una librería web diseñada para organizar y gestionar libros de forma sencilla y accesible. 
+                        Permite a los usuarios registrar los libros que han leído y aquellos que aún tienen pendientes, 
+                        junto con la información de sus autores. Su enfoque está en brindar una experiencia clara y ordenada, 
+                        facilitando el seguimiento personal de lecturas y ayudando a construir una colección literaria digital 
+                        de manera práctica e intuitiva.
+                    </p>
                 </div>
             </div>
 
@@ -14,7 +22,7 @@
                     <h3 class="text-white mb-4">Informacion</h3>
                     <p><i class="fa fa-map-marker-alt mr-2"></i>Itla Santo Domingo</p>
                     <p><i class="fa fa-phone-alt mr-2"></i>Contacto</p>
-                    <p><i class="fa fa-envelope mr-2"></i>antlibrary@example.com</p>
+                    <p><i class="fa fa-envelope mr-2"></i>librarylist@example.com</p>
                     <div class="d-flex justify-content-start mt-4">
                         <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-twitter"></i></a>
                         <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-facebook-f"></i></a>
@@ -40,7 +48,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
-                    <p class="m-0">Copyright &copy; <a class="text-white" href="#">Ant-Library</a>. All Rights Reserved.
+                    <p class="m-0">Copyright &copy; <a class="text-white" href="#">LibraryList</a>. All Rights Reserved.
                     </p>
                 </div>
                 <div class="col-md-6 text-center text-md-right">

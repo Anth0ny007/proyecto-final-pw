@@ -5,7 +5,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
@@ -26,6 +26,7 @@
 
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style-addBook.css">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -54,14 +55,16 @@
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="row align-items-center">
-                <div class="col-lg-7">
+                <div class="col-lg-5 mb-5 mb-lg-0">
                     <div class="section-title position-relative mb-4">
                         <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Quieres Registrar un Libro?</h6>
-                        <h1 class="display-4">Registro</h1>
+                        <h1 class="display-4">Registro de Libros</h1>
                     </div>
+                </div>
 
+                <div class="col-lg-7">
                     <div class="contact-form">
-                        <form action="data/guardar_libro.php" method="POST">
+                        <form action="data/guardar-libro.php" method="POST">
                             <div class="row">
                                 <div class="col-6 form-group">
                                     <input type="text" name="titulo" class="form-control border-top-0 border-right-0 border-left-0 p-0" placeholder="Título del Libro" required>
@@ -84,7 +87,10 @@
                                 </div>
 
                                 <div class="col-6 form-group">
-                                    <input type="date" name="fecha_publicacion" class="form-control border-top-0 border-right-0 border-left-0 p-0" required>
+                                    <fieldset class="fecha-publ">
+                                        <legend>Fecha de Publicacion</legend>
+                                        <input type="date" name="fecha_publicacion" class="form-control border-top-0 border-right-0 border-left-0 p-0" required>
+                                    </fieldset>
                                 </div>
                             </div>
 

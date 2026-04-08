@@ -20,11 +20,9 @@
                     <h3>
                         Libro registrado correctamente!
                     </h3>
-
-                    <p>
-                        El libro <strong>$titulo</strong> fue añadido a la librería.
-                    </p>
                 </div>
+
+                <a href='../add-libro.php'>Regresar</a>
             ";
         } 
         
@@ -34,6 +32,8 @@
                     <h3>
                         Error al registrar el libro.
                     </h3>
+
+                    <a href='../add-libro.php'>Regresar</a>
                 </div>
             ";
         }
